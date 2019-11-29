@@ -72,13 +72,17 @@ input[type=button]:hover {
 }
 
 
+#button {
+    margin-left: 25%;
+
+}
 
 #id_form input[type=text] {
     background-color: #CCE4F7;
     border: none;
     border-radius: 2px;
     height: 40px;
-	margin-left: 3%;
+    width: 49%;
 }
 
 #id_form textarea {
@@ -208,6 +212,11 @@ input[type=button]:hover {
 @media screen and (max-width: 768px) {
     .sl {
         display: none;
+    }
+
+    #id_form input[type=text] {
+       width: 98%;
+        margin: 5px 0;
     }
 
     #slider, #content, #id_form {
